@@ -1,4 +1,4 @@
-FROM python:3.9-buster
+FROM python:3.9-slim
 
 RUN apt-get update && \
   apt-get install -y poppler-utils qpdf libfile-mimeinfo-perl libimage-exiftool-perl ghostscript libsecret-1-0 zlib1g-dev libjpeg-dev \
