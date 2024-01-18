@@ -1,5 +1,4 @@
 FROM python:3.9-buster
-LABEL maintaner="Florian Purchess <florian@attacke.ventures>"
 
 RUN apt-get update && \
   apt-get install -y poppler-utils qpdf libfile-mimeinfo-perl libimage-exiftool-perl ghostscript libsecret-1-0 zlib1g-dev libjpeg-dev \
